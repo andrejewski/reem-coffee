@@ -13,7 +13,7 @@ npm install reem-coffee # --save for projects
 
 ```javascript
 var coffee = require('reem-coffee');
-reem.file(coffee([options]));
+reem.File.use(coffee([options]));
 ```
 
 ## About
@@ -50,3 +50,9 @@ This option is a part of the `coffee-script` compile options. However, if set to
 If you have an issue or find a bug open an issue and I will see what we can do. If you can fix the bug yourself, by all means send a pull request for consideration.
 
 Until `reem` and `reem-coffee` hit v1, I would like to keep backwards compatibility with the v0.0.1, treating it like v1. When the conditions are met for v1, we can cut away the cruft of v0.
+
+```bash
+# running tests
+npm run test
+npm run test-spec
+```
