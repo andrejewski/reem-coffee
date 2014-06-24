@@ -1,0 +1,3 @@
+This is an identity scenario, meaning that the `reem-coffee` plugin should execute. However as none of the files in this directory are CoffeeSript, this scenario is really just a no-op or a control.
+
+Using this scenario we can ensure the plugin will not mutate files it is not concenred with. Pointless, yes, but testing is testing.
